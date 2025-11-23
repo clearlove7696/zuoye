@@ -1,0 +1,34 @@
+{
+  "name": "creative-showcase-platform",
+  "version": "1.0.0",
+  "description": "创意作品展示平台 - 使用 Supabase 和 Netlify",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0"
+  },
+  "keywords": [
+    "react",
+    "supabase",
+    "netlify",
+    "creative",
+    "portfolio"
+  ],
+  "author": "Student",
+  "license": "MIT"
+}
